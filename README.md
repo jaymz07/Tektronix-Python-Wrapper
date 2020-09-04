@@ -3,10 +3,14 @@ Wrapper class for easy control of a Tektronix oscilloscope on a Linux Machine us
 
 Retrieve a scope trace as easily as:
 
+```
 import scopeWrapper
 sw = scopeWrapper.ScopeWrapper()
 y = sw.readTrace('CH1')
 x = sw.getTimeAxis()
+```
 
-#after importing your choice of plotting library
+After importing your choice of plotting library, you can then just
+```
 plot(x,y)
+```
