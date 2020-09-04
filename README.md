@@ -16,4 +16,4 @@ plot(x,y)
 ```
 Currently only tested with Tektronix MDO4104B-3 on Linux Kernel 5.3.18. This should at least work with all MDO4100 series scopes.
 
-Some scope communication programs have trouble obtaining more than 10,000 or 100,000 points from these scopes. This issue has been fixed in this program, and the solution appears to be in the initialization of the communication.
+Some scope communication programs have trouble obtaining more than 10,000 or 100,000 points from these scopes. I revcall having this issue in Labview. However, this issue has been fixed in this program, and the solution appears to be in the initialization of the communication. Hopefully that statement is helpful to someone.
