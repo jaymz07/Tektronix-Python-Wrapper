@@ -6,7 +6,7 @@ Retrieve a scope trace as easily as:
 ```
 import scopeWrapper
 sw = scopeWrapper.ScopeWrapper()
-y = sw.readTrace('CH1')
+y = sw.getTrace('CH1')
 x = sw.getTimeAxis()
 ```
 
